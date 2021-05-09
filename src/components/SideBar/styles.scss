@@ -1,0 +1,29 @@
+.side-bar-container {
+  background-image: linear-gradient(
+    -45deg,
+    rgba(79, 28, 199, 1) 35%,
+    rgba(103, 49, 225, 1) 45%,
+    rgba(79, 28, 199, 1) 55%
+  );
+
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .title-description {
+    max-width: 12rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-style: italic;
+    color: #ffff;
+    text-align: right;
+  }
+
+  .logo-white {
+    filter: brightness(0) invert(1);
+    max-width: 50%;
+    margin: 10rem 3rem 2rem auto;
+  }
+}

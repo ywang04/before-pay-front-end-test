@@ -1,13 +1,15 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import EmploymentProvider from './providers/EmploymentProvider';
 import reportWebVitals from './reportWebVitals';
 
+import './index.scss';
+
 ReactDOM.render(
-  <React.StrictMode>
+  <EmploymentProvider>
     <App />
-  </React.StrictMode>,
+  </EmploymentProvider>,
+
   document.getElementById('root')
 );
 

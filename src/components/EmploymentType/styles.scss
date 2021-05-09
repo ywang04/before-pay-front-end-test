@@ -1,0 +1,18 @@
+.employment-type-container {
+  display: flex;
+  flex-direction: column;
+
+  .next-button {
+    border-radius: 25px;
+    padding: 10px;
+    border: 2px solid #640dd3;
+    color: #640dd3;
+    width: 7rem;
+    margin-top: 2rem;
+    background-color: white;
+  }
+
+  .employment-select {
+    border-radius: 5px;
+  }
+}
